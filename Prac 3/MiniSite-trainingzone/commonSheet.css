@@ -1,0 +1,107 @@
+0045E50045E50045E5@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 30px;
+}
+
+ul.navbar {
+	margin: 0;
+	padding: 0 20px;
+	list-style-type: none;
+	background-color: #1A52AA;
+}
+
+.navbuttons {
+	margin: auto;
+}
+
+.navbar li {
+	display: inline-block;
+	transition: background .4s;
+	padding: 20px;
+	margin: 0px 10px;
+	background-color: #1A52AA;
+	color: white;
+}
+
+.navbar li:hover {
+	background-color: #3471FF;
+}
+
+li.currentPage {
+	background-color: #3471FF;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.pageInfo {
+	padding-left: 30px;
+	display: flex;
+}
+
+.callToActionTab {
+	margin: 30px 30px 0px auto;
+}
+
+.callToAction {
+	min-width: 200px;
+	padding: 10px 50px;
+	background-color: #1A52AA;
+	border-radius: 50px;
+	color: white;
+}
+
+.contactUs {
+	display: inline-block;
+	background-color: #0063FC;
+	transition: background .4s;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.contactUs, a {
+	text-decoration: none;
+	margin: 0px auto 10px;
+}
+
+.contactUs:hover {
+	background-color: #5899FF;
+	transition: background .4s;
+}
+
+.announcements {
+	width: 20%;
+	padding: 20px;
+	background-color: #489BFF;
+}
+
+.announcement {
+	background-color: #3471FF;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.announcement h3 {
+	margin: 0;
+}
+
+.container {
+	margin: 20px;
+}
+
+.spanPicture {
+	width: 500px;
+}
