@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content h2 {
+	margin-bottom: 0px;
+}
+
+.content h3 {
+	margin-top: 0px;
+}

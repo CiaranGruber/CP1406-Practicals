@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact {
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+.contactType {
+	width: 5em;
+}
+
+img.displayPicture {
+	width: 100%
+}
+
+.content h2 {
+	font-size: 3em;
+}

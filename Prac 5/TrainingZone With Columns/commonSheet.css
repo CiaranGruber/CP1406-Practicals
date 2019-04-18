@@ -1,0 +1,150 @@
+0045E50045E50045E5@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0px;
+}
+
+.body {
+    margin: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-color: lightslategray;
+}
+
+.container {
+    width: 1100px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    border-bottom: solid;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    margin: 0 auto;
+	padding: 15px 30px;
+}
+
+aside .navbar {
+	float: left;
+    margin: 0;
+    padding: 0px;
+    width: 200px;
+	list-style: none;
+	background-color: #1A52AA;
+    height: 100%;
+}
+
+.navbuttons {
+	margin: auto;
+}
+
+.navbar li {
+	display: block;
+	transition: background .4s;
+	padding: 20px;
+	background-color: #1A52AA;
+	color: white;
+}
+
+.navbar li:hover {
+	background-color: #3471FF;
+}
+
+li.currentPage {
+	background-color: #3471FF;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.content {
+    float: left;
+    width: 550px;
+    padding: 0px 50px;
+}
+
+.sidebar {
+	float: left;
+    width: 250px;
+	background-color: #489BFF;
+}
+
+.callToAction {
+    text-align: center;
+	padding: 10px 50px;
+	background-color: #1A52AA;
+	border-radius: 0px 0px 50px 50px;
+	color: white;
+}
+
+.contactUs {
+	display: inline-block;
+	background-color: #0063FC;
+	transition: background .4s;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.contactUs, a {
+	text-decoration: none;
+	margin: 0px auto 10px;
+}
+
+.contactUs:hover {
+	background-color: #5899FF;
+	transition: background .4s;
+}
+
+.announcements {
+	padding: 20px;
+}
+
+.announcement {
+	background-color: #3471FF;
+	padding: 20px;
+	margin: 30px 0;
+	border-radius: 10px;
+	box-shadow: 1px 1px 6px #0045E5;
+}
+
+.announcement h3 {
+	margin: 0;
+}
+
+.announcement {
+	background-color: #3471FF;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.announcement h3 {
+	margin: 0;
+}
+
+.spanPicture {
+	width: 100%;
+}
+
+footer {
+    clear: both;
+    background-color: #1A52AA;
+    display: flex;
+}
+
+footer ul {
+    margin: auto;
+    padding: 0;
+}
+
+footer .navbar li {
+    display: inline-block;
+    margin: 0px 10px;
+}
