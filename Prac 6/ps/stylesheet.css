@@ -1,0 +1,44 @@
+body {
+    font-family: Bahnschrift, sans-serif;
+}
+
+header {
+    display: flex;
+    border-bottom: solid;
+    margin-bottom: 3em;
+}
+
+h1 {
+    margin: 5px auto;
+    font-family: "Book Antiqua", serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.container a {
+    text-decoration: none;
+    color: gray;
+    transition: color .4s;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: lightgray;
+    transition: color .4s;
+}
+
+.image-set {
+    display: flex;
+    margin: 10px auto;
+    border: solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-set h2 {
+    margin: auto 30px;
+    
+}
